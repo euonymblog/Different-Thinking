@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<title>Home</title>
+<section class="topsection">
+      <span class="font1 heading">Different</span><span class="font2 heading">Thinking</span><span class="font2">=</span>
+
+      <span class="font1 heading">Challenge</span><span class="font2 heading">Convention</span>
+</section>
+
+<section class="grid departments flexcenter">
+  <div class="col-4 dept1 hiddentext">
+    <a href="/organisations.html">
+        <h2>Different</h2> <h3>Organisations</h3>
+    </a>
+  </div>
+
+  <div class="col-4 dept2 hiddentext">
+    <a href="/websites.html">
+        <h2>Different</h2> <h3>Websites</h3>
+    </a>
+  </div>
+
+  <div class="col-4 dept3 hiddentext">
+    <a href="communications.html">
+        <h2>Different</h2> <h3>Communications</h3>
+    </a>
+  </div>
+</section>
+
+<section class="grid team">
+  <div class="col-4 frame">
+    <div class="portrait">
+
+    </div>
+  </div>
+  <div class="col-8 bio">
+    <p><span class="font1">Antonia</span> has lived in 8 countries, travelled in many more and speaks 4 languages. Aside from her work, she knits, acts in and directs theatre, watches all kind of sport and sails. She has played bass in a pub band, danced Flamenco in Jerez, and done courses on cartooning. She has turned into a front-end web development obsessive. She draws on all these experiences to gain different perspectives on problems and challenges. </p>
+    <p>
+    Antonia has a Masters from the University of Melbourne, during which she studied creative and critical thinking and wrote her thesis on organisational networks. She has experience in communication, media relations, policy development & coordination and productivity improvement across the public, educational, not-for-profit and private sectors.
+    </p>
+  </div>
+</section>
+
+<section class="grid news">
+
+  {% for post in site.posts limit:3 %}
+  <div class="col-4">
+    <h4>{{post.title}}</h4>
+    <p>{{post.excerpt}}</p>
+  </div>
+  {% endfor %}
+</section>

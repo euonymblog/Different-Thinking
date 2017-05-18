@@ -1,0 +1,253 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/*This is the body section*/
+
+body {
+  margin: auto;
+  padding: auto;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+
+h1, h2 {
+  color: gold;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+
+h3, h4, h5, h6, p {
+  color: #34b629;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: midnightblue;
+  font-family: 'Montserrat', sans-serif;
+  /*text-align: justify;*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: tomato;
+}
+p {
+  color: darkslategrey;
+  font-family: 'Lato', sans-serif;
+}
+
+/*This is the helper section*/
+
+.font1 {
+  font-family: 'Amatic SC', cursive;
+  color: tomato;
+}
+
+.font2 {
+  font-family: 'Montserrat';
+  color: #34b629;
+}
+
+.heading {
+  font-size: 2rem;
+}
+.topsection{
+margin-top: 5%
+}
+
+.flexcenter {
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+}
+
+/*This is the header section*/
+
+header {
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2%;
+}
+
+.header {
+  border-bottom: 2px solid tomato;
+}
+
+header a, span{
+  padding-right: 2%;
+  margin-top: 3%;
+}
+header a{
+  color: #34b629;
+}
+
+header span {
+  color: tomato;
+  font-size: 1.5rem;
+}
+
+.nav {
+ margin-top: 1%;
+}
+
+.logo {
+  height:10vh;
+}
+
+.logo img {
+  height: 10vh;
+}
+
+
+/*This is the homepage section*/
+
+.topsection {
+  margin: 3%;
+  height: 10vh;
+}
+
+.topsection span {
+  font-size: 3rem;
+}
+
+.departments {
+  height: 55vh;
+}
+
+.departments h2 {
+  color: tomato;
+  padding-top: 23%;
+  font-size: 4rem;
+}
+
+.departments h3 {
+  font-size: 2.8rem;
+}
+
+.dept1 {
+  background-image: url(/images/Different_blank.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dept2 {
+  background-image: url(/images/Different_blank.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dept3 {
+  background-image: url(/images/Different_blank.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hiddentext h2, h3 {
+  opacity: 0;
+  transition: 1s;
+
+}
+
+.hiddentext:hover h2 {
+  opacity: 1;
+}
+
+.hiddentext:hover h3 {
+  opacity: 1;
+}
+
+.team {
+  margin: 5% 10%;
+}
+
+.frame {
+  padding-top: 3%;
+}
+
+.portrait {
+  background-image: url(/images/antonia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-top: 2%;
+}
+
+.bio p {
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 1.25rem;
+}
+
+.bio span {
+  font-size: 2.5rem;
+}
+
+.bio {
+  padding-bottom: 3%;
+}
+
+/*This is the departments section*/
+
+.deptheading h2, h3{
+  font-size: 3rem;
+}
+
+
+/*This is the footer section*/
+
+.footer {
+  margin-top: 5%;
+  border-right: 2px solid gold;
+  align-items: center;
+}
+
+footer .fa{
+  font-size: 3rem;
+  color: #34b629;
+}
+
+.buttonholder {
+  margin-top: 5%;
+  padding: 5% 20%;
+}
+
+.fakebutton a{
+  color: #34b629;
+  font-size: 1.2rem;
+}
+
+.fakebutton {
+  background-color: #ffd700;
+  border-radius: ;
+  padding: 8%;
+}
+
+.fakebutton span{
+  color: tomato;
+  font-size: 1.8rem;
+}
+
+.fakebutton p {
+  color: slategrey;
+}
+
+.copyright {
+  margin-left: 10%;
+}
+.copyright p{
+  font-size: 0.8rem;
+}

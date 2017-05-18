@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<title>{{page.title}}</title>
+<section class=" {{page.title}} topsection grid">
+  <div class="col-4">
+
+  </div>
+
+  <div class="col-8 deptheading">
+    <h2>Different</h2>
+    <h3>{{page.title}}</h3>
+  </div>
+</section>
+
+<section class="grid services">
+  {% for thing in page.services limit:3 %}
+  <div class="col-4">
+    <div class="serviceicon">
+      <i class="fa fa-{{ services.icon }}" aria-hidden="true"></i>
+    </div>
+    <div>
+      <h5>{{services.service}}</h5>
+    </div>
+    <div>
+      <p>
+        {{services.description}}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="grid experience">
+  {% for experience in page.experiences limit:3 %}
+    <div class="col-4">
+      <div>
+        <h5>{{experiences.task}}</h5>
+      </div>
+      <div>
+        <p>
+          {{experiences.outline}}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+
+<section class="grid testimonials">
+  {% for testimonial in page.testimonials limit:3 %}
+  <div class="col-4">
+    <div>
+      <h5>{{testimonials.name}}, {{testimonials.role}}</h5>
+    </div>
+    <div>
+      <p>
+        {{page.text}}
+      </p>
+    </div>
+  </div>
+{% endfor %}
+</section>

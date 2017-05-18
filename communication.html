@@ -1,0 +1,47 @@
+---
+layout: default
+title: Communication
+services:
+  - service: blah
+  - icon: heart
+  - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - service: blah blah
+  - icon: users
+  - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - service: blah blah blah
+  - icon: bullhorn
+  - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+experience:
+  - role:
+  - tasks:
+  - role:
+  - tasks:
+  - role:
+  - tasks:
+testimonials:
+  - name:
+  - role:
+  - text:
+  - name:
+  - role:
+  - text:
+  - name:
+  - role:
+  - text:
+---
+
+<title>{{ page.title }}</title>
+
+<section class="services grid">
+
+  <h2>Services</h2>
+
+  {% for item in page.services %}
+    <div class="col-4">
+      <h3>{{ services.service }}</h3>
+      <i class="fa fa-{{ services.icon }}" aria-hidden="true"></i>
+      <p>{{ services.description }}</p>
+    </div>
+  {% endfor %}
+
+</section>

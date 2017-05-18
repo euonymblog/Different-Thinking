@@ -118,12 +118,12 @@ header span {
 }
 
 .departments {
-  height: 55vh;
+  height: 65vh;
 }
 
 .departments h2 {
   color: tomato;
-  padding-top: 23%;
+  padding-top: 30%;
   font-size: 4rem;
 }
 

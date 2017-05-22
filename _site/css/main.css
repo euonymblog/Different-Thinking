@@ -14,44 +14,41 @@ body {
 }
 
 
-h1, h2 {
-  color: gold;
+h1, h2, h3, h4, h5, h6 {
+  color: #12c289;
   font-family: 'Amatic SC', cursive;
   text-align: center;
 }
 
 
-h3, h4, h5, h6, p {
-  color: #34b629;
-  font-family: 'Montserrat', sans-serif;
+p {
+  color: slategrey;
+  font-family: 'Antic', sans-serif;
   text-align: center;
 }
 
 a {
-  color: midnightblue;
-  font-family: 'Montserrat', sans-serif;
+  color: slategrey;
+  font-family: 'Antic', sans-serif;
   /*text-align: justify;*/
   text-decoration: none;
 }
 
 a:hover {
-  color: tomato;
+  color: #12c289;
 }
-p {
-  color: darkslategrey;
-  font-family: 'Lato', sans-serif;
-}
+
 
 /*This is the helper section*/
 
 .font1 {
   font-family: 'Amatic SC', cursive;
-  color: tomato;
+  color: #12c289;
 }
 
 .font2 {
-  font-family: 'Montserrat';
-  color: #34b629;
+  font-family: 'Antic', sans-serif;
+  color: #08593f;
 }
 
 .heading {
@@ -76,20 +73,15 @@ header {
   padding-right: 2%;
 }
 
-.header {
-  border-bottom: 2px solid tomato;
-}
-
 header a, span{
   padding-right: 2%;
   margin-top: 3%;
 }
 header a{
-  color: #34b629;
+  color: #08593f;
 }
 
 header span {
-  color: tomato;
   font-size: 1.5rem;
 }
 
@@ -106,6 +98,16 @@ header span {
 }
 
 
+.grid {
+  flex-flow: nowrap;
+}
+
+.department h2{
+  font-size: 2.5rem;
+  margin-top: 10%;
+}
+
+
 /*This is the homepage section*/
 
 .topsection {
@@ -119,10 +121,10 @@ header span {
 
 .departments {
   height: 65vh;
+  margin-top: 5%;
 }
 
 .departments h2 {
-  color: tomato;
   padding-top: 30%;
   font-size: 4rem;
 }
@@ -131,39 +133,24 @@ header span {
   font-size: 2.8rem;
 }
 
+.dept {
+  margin: 3%;
+}
+
+.dept:hover {
+  background-color: rgba(8,89,63, 0.2)
+}
+
 .dept1 {
-  background-image: url(/images/Different_blank.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  border: 10px solid #12c231;
 }
 
 .dept2 {
-  background-image: url(/images/Different_blank.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  border: 10px solid #12a3c2;
 }
 
 .dept3 {
-  background-image: url(/images/Different_blank.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hiddentext h2, h3 {
-  opacity: 0;
-  transition: 1s;
-
-}
-
-.hiddentext:hover h2 {
-  opacity: 1;
-}
-
-.hiddentext:hover h3 {
-  opacity: 1;
+  border: 10px solid #c23112;
 }
 
 .team {
@@ -190,6 +177,7 @@ header span {
   text-align: justify;
   line-height: 1.8;
   font-size: 1.25rem;
+  margin: 1% 0;
 }
 
 .bio span {
@@ -200,24 +188,62 @@ header span {
   padding-bottom: 3%;
 }
 
+p.slogan {
+  font-size: 2rem;
+  color: #08593f;
+}
+
 /*This is the departments section*/
 
 .deptheading h2, h3{
   font-size: 3rem;
+  text-align: center;
+}
+
+/*.sectiontitle {
+  min-height: 10vh;
+  margin-top: 5%;
+  margin-left: 3%;
+}*/
+
+.sectionheading h2{
+  font-size: 4rem;
+  color: #c23112;
+  margin: 2%;
+}
+
+.sectionheading {
+  border: 7px solid #c23112;
+  margin: 5% 25%;
+}
+
+.deptname {
+  margin-top: 3%;
+}
+
+/*This is the communication page section*/
+
+.commsdeptid {
+  border: 10px solid #c23112;
+  height: 20vh;
+  margin: 5%, 10%;
 }
 
 
+.comms {
+  color: #c23112;
+}
 /*This is the footer section*/
 
 .footer {
   margin-top: 5%;
-  border-right: 2px solid gold;
+  border-top: 5px solid #08593f;
   align-items: center;
 }
 
 footer .fa{
   font-size: 3rem;
-  color: #34b629;
+  color: #08593f;
 }
 
 .buttonholder {
@@ -226,19 +252,22 @@ footer .fa{
 }
 
 .fakebutton a{
-  color: #34b629;
-  font-size: 1.2rem;
+  color: #08593f;
+  font-size: 1.3rem;
 }
 
 .fakebutton {
-  background-color: #ffd700;
+  background-color: whitesmoke;
+  border: 3px inset #08593f;
   border-radius: ;
-  padding: 8%;
+  padding: 15%;
+  width: 300px;
+  box-shadow: 5px 5px 2px slategrey;
 }
 
 .fakebutton span{
-  color: tomato;
-  font-size: 1.8rem;
+  color: slategrey;
+  font-size: 2rem;
 }
 
 .fakebutton p {

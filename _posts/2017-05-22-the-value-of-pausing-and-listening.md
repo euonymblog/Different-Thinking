@@ -1,9 +1,6 @@
 ---
 layout: posts
 title: The value of pausing and listening
-category:
-  - organisations
-  - communicating
 author: Antonia
 ---
 

@@ -5,6 +5,7 @@ category:
   - organisations
   - communicating
 author: Antonia
+image: http://antoniamochan.com/wp-content/uploads/2017/04/kristina-flour-185592.jpg
 ---
 I liked [this piece] (https://hbr.org/2017/04/how-to-design-meetings-your-team-will-want-to-attend) in HBR on holding good meetings. Having sat through a fair few interminable meetings in my time, quite a lot of it resonated.
 

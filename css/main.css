@@ -193,6 +193,23 @@ p.slogan {
   color: #08593f;
 }
 
+.homeblog {
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+.homeposts h4 {
+  font-size: 1.7rem;
+}
+
+.homeposts p {
+  font-size: 1.5rem;
+}
+.homeposts h4{
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
 /*This is the departments section*/
 
 .deptheading h2 {

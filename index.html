@@ -46,12 +46,17 @@ layout: default
   </div>
 </section>
 
+<div class="homeblog">
+  <h3><span class="font1">Different</span> <span class="font2">Thoughts</span></h3>
+</div>
+
 <section class="grid news">
 
   {% for post in site.posts limit:3 %}
-  <div class="col-4_sm-12">
+  <div class="col-4_sm-12 homeposts">
     <h4>{{post.title}}</h4>
     <p>{{post.excerpt}}</p>
+    <a href={{post.url}}><span>Read more</span></a>
   </div>
   {% endfor %}
 </section>

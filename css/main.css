@@ -326,6 +326,24 @@ p.slogan {
   height: 300px;
 }
 
+/*This is the holderpage section*/
+
+.buildasite h2 {
+  font-size: 3rem;
+}
+
+.buildasite h4 {
+  font-size: 2rem;
+}
+
+.buildasite h5 {
+  font-size: 1.8rem;
+}
+
+.buildasite {
+  padding-top: 2%;
+  line-height: 2;
+}
 
 /*This is the footer section*/
 

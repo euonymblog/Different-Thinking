@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<title>{{ page.title}}</title>
+<title>{{ post.title}}</title>
 
-<h2>{{ page.title }}</h2>
+<h2>{{ post.title }}</h2>
 
 <section class="grid">
 
@@ -12,9 +12,12 @@ layout: default
   </div>
 
   <div class="col-6">
+    <div style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+    </div>
     <p>
       {{content}}
-    </p>
+    </p>ß
   </div>
 
   <div class="col-3">
@@ -26,17 +29,17 @@ layout: default
 <section class="grid">
 
   <div class="col-4">
-    {% for item in page.category %}
+    {% for item in post.category %}
     <p>
     </p>
     {% endfor %}
   </div>
 
   <div class="col-4">
-    {{ page.date | date: '%B %d, %Y' }}
+    {{ post.date | date: '%B %d, %Y' }}
   </div>
   <div class="col-4">
-    {{page.author}}
+    {{post.author}}
   </div>
 
 </section>

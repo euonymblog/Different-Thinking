@@ -14,7 +14,7 @@ I like the Zapier blog, as they write some good pieces that support people worki
 
 This section particularly leaped out at me:
 
-One of the reasons many managers don’t approve of remote work is they fear employees will slack off without that physical, in-person oversight. But, in fact, the opposite tends to be the reality–remote workers are more likely to overwork.
+> One of the reasons many managers don’t approve of remote work is they fear employees will slack off without that physical, in-person oversight. But, in fact, the opposite tends to be the reality–remote workers are more likely to overwork.
 
 Having worked in a large organisation for 20 years – and now working with several clients in big organisations – it strikes me that this lack of trust is at the heart of so many issues that suck the productivity and creativity out of them. I have seen so many instances when people with the interests of the organisation at heart have been slapped down, not allowed to grow or be creative because of this lack of trust. And I find it perplexing. Why would you have people working with you that you didn’t trust?
 
@@ -22,9 +22,10 @@ It comes back, I suppose, to the issues raised by Frederic Laloux (and others), 
 
 When I was a Spokesperson at the European Commission, our team operated in a very flat manner, especially compared to the hierarchical way other parts of that organisation were structured. And we worked out of our skins. At the time I attributed this to a few things:
 
-* we had a very clear goal for our work – getting more media coverage, reducing inaccurate coverage
-* we stood or fell by the quality of our work – if we messed up or didn’t do our work properly, that was patently clear for everyone to see. That’s a great motivator!
+we had a very clear goal for our work – getting more media coverage, reducing inaccurate coverage
+
+we stood or fell by the quality of our work – if we messed up or didn’t do our work properly, that was patently clear for everyone to see. That’s a great motivator!
 
 This is also true for remote workers, especially when they are freelancers. They usually have a clear role within a project and parameters have been established. They know what they are there to do. They do it because they enjoy it and are good at it. And they also know that their future prosperity stands or falls on how well they perform. Do badly, particularly in a tightly knit location or industry, and you risk negative publicity. In a form of work where so much quality work can come about through personal recommendations, that’s a very important consideration.
 
-It seems there are also lessons for leadership in more traditional organisations. If your staff understand what their goal is at work, and how they are contributing to the bigger picture, and then are also given clear indications as to what is expected of them, that can provide space for  trust to grow, trust that is so crucial to people getting meaning from their work
+It seems there are also lessons for leadership in more traditional organisations. If your staff understand what their goal is at work, and how they are contributing to the bigger picture, and then are also given clear indications as to what is expected of them, that can provide space for &nbsp;trust to grow, trust that is so crucial to people getting meaning from their work

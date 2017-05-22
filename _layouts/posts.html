@@ -1,42 +1,51 @@
 ---
 layout: default
 ---
-<title>{{ post.title }}</title>
+<title>{{ page.title }}</title>
+<div class="blogtitle">
+  <h2>{{ page.title }}</h2>
+</div>
 
-<h2>{{ post.title }}</h2>
 
 <section class="grid">
 
-  <div class="col-3">
-
+  <div class="col-3_sm-0">
+    <!-- <a class="twitter-timeline" data-height="300" href="https://twitter.com/DiffThinkingAU">Tweets by DiffThinkingAU</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
   </div>
 
-  <div class="col-6">
-    <div style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-
+  <div class="col-6_sm-12 mainpart">
+    <div class="postimage" style="background-image: url('{{ page.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
     </div>
+  <div class="writing">
     <p>
       {{content}}
     </p>
   </div>
 
-  <div class="col-3">
-
   </div>
+
+  <div class="col-3_sm-0 postimage">
+
 
 </section>
 
-<section class="grid">
+<section class="grid details">
 
-  <div class="col-4">
-
+  <div class="col-4_sm-12 cats">
+    <p>
+      Categories
+    </p>
   </div>
 
-  <div class="col-4">
-    {{ post.date | date: '%B %d, %Y' }}
+  <div class="col-4_sm-12 ">
+    <p>
+      Published on: {{ page.date | date: '%B %d, %Y' }}
+    </p>
   </div>
-  <div class="col-4">
-    {{post.author}}
+  <div class="col-4_sm-12 author">
+    <p>
+      Post by: {{page.author}}
+    </p>
   </div>
 
 </section>

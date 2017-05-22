@@ -73,9 +73,10 @@ header {
   padding-right: 2%;
 }
 
-header a, span{
+header a {
   padding-right: 2%;
   margin-top: 3%;
+  font-size: 1.2rem;
 }
 header a{
   color: #08593f;
@@ -291,6 +292,39 @@ p.slogan {
 
 /*This is the posts section*/
 
+.blogtitle {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.writing p {
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.writing {
+  margin-top: 3%;
+}
+
+.cats {
+  text-align: right;
+}
+
+.author {
+  text-align: left;
+}
+
+.details {
+  margin-top: 3%;
+}
+
+.mainpart {
+  padding: 0 2%;
+}
+
+.postimage {
+  height: 300px;
+}
 
 
 /*This is the footer section*/

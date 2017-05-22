@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: What remotes workers teach us about leadership
+title: What remote workers teach us about leadership
 category: organisations
 author: Antonia
 image: /uploads/remote-worker-leadership.jpg

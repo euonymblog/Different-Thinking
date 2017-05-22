@@ -1,9 +1,10 @@
 ---
 layout: posts
 title: The women that made me
-category: organisations
+category: life
 author: Antonia
 image:
+permalink: women-made-me
 ---
 
 

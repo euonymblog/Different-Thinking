@@ -5,9 +5,9 @@ services:
 - service: Communication Audits
   description: Examine your existing communication activities, recommend changes that will help you better meet your objectives
 - service: Internal Communication
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- service: Media strategies
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Combine the latest tools with research on organisations to get the right internal communication solution for your organisation.
+- service: Comms/Media strategies
+  description: Social, digital, audiovisual, press - get the right combination for your organisation and your audience.
 experiences:
 - task: Media Spokeswoman
   outline: Antonia worked for 10 years in media roles for the European Commission, planning media events, briefing journalists and giving radio and TV interviews.
@@ -31,19 +31,19 @@ testimonials:
 
 <section class="sectiontitle">
   <div>
-    <div class="topsection">
-      <h2 class="font1">Different</h2><h3 class="font2 deptname comms">Communication</h3>
+    <div class="deptheading">
+      <span><h2 class="font1">Different</h2><h2 class="font2 comms">Communication</h2></span>
     </div>
   </div>
 
 </section>
 
-<div>
 
-  <div class="sectionheading">
+
+  <div class="sectionheading comms">
     <h2 class="servicetitle">Services</h2>
   </div>
-  <section class="grid">
+  <section class="grid matrix">
     {% for item in page.services %}
       <div class="col-4 servicesoutline">
         <div>
@@ -57,11 +57,11 @@ testimonials:
   </section>
 
 
-  <div class="sectionheading">
+  <div class="sectionheading comms">
     <h2 class="exptitle">Experience</h2>
   </div>
 
-    <section class="grid">
+    <section class="grid matrix">
       {% for item in page.experiences %}
         <div class="col-4 expoutline">
           <div>
@@ -74,11 +74,11 @@ testimonials:
       {% endfor %}
     </section>
 
-  <div class="sectionheading">
+  <div class="sectionheading comms">
     <h2 class="testtitle">Testimonials</h2>
   </div>
 
-<section class="grid">
+<section class="grid matrix">
   {% for item in page.testimonials %}
     <div class="col-4 testoutline">
       <div>
@@ -93,5 +93,3 @@ testimonials:
     </div>
   {% endfor %}
 </section>
-
-</div>

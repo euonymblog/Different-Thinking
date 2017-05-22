@@ -1,0 +1,95 @@
+---
+layout: default
+title: Websites
+services:
+  - service: Templated websites
+    icon: magic
+    description: Build a website on a platform that you choose within a template (Wordpress, Strikingly, Wix, Weebly, Shopify)
+  - service: Custom-built websites
+    icon: globe
+    description: Build your own mobile-responsive site from the ground up, using HTML, CSS and jQuery. We use systems that make it easy for you to edit and add your own content.
+  - service: Website content
+    icon: pencil
+    description: As well as building websites, we can write the copy, working with you to get the right tone for your organisation and its brand.
+experiences:
+  - task: Blogging
+    outline: Antonia has been blogging since 2008, on issues including European politics, social media, public engagement with science, organisational behaviour and leadership.
+  - task: Website building
+    outline: Building ecommerce and showcase sites for small businesses, individuals and NGOs
+  - task: HTML, CSS, JS
+    outline: Redeveloped the site for a local neighbourhood blog, moving from a free template site, to custom-built.
+testimonials:
+  - name:
+    role:
+  - name:
+    role:
+  - name:
+    role:
+---
+
+<title>{{ page.title }}</title>
+
+<section class="sectiontitle">
+  <div>
+    <div class="deptheading">
+      <span><h2 class="font1">Different</h2><h2 class="font2 web">Websites</h2></span>
+    </div>
+  </div>
+
+</section>
+
+
+
+  <div class="sectionheading web">
+    <h2 class="servicetitle">Services</h2>
+  </div>
+  <section class="grid matrix">
+    {% for item in page.services %}
+      <div class="col-4 servicesoutline">
+        <div>
+          <h3>{{ item.service }}</h3>
+        </div>
+        <div>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+
+
+  <div class="sectionheading web">
+    <h2 class="exptitle">Experience</h2>
+  </div>
+
+    <section class="grid matrix">
+      {% for item in page.experiences %}
+        <div class="col-4 expoutline">
+          <div>
+            <h3>{{ item.task }}</h3>
+          </div>
+          <div>
+            <p>{{ item.outline }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+  <div class="sectionheading web">
+    <h2 class="testtitle">Testimonials</h2>
+  </div>
+
+<section class="grid matrix">
+  {% for item in page.testimonials %}
+    <div class="col-4 testoutline">
+      <div>
+        <h3>{{ item.name }}</h3>
+      </div>
+      <div>
+        <h4>{{ item.role}}</h4>
+      </div>
+      <div>
+        <p>{{ item.testimonial }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<title>{{ page.title}}</title>
+
+<h2>{{ page.title }}</h2>
+
+<section class="grid">
+
+  <div class="col-3">
+
+  </div>
+
+  <div class="col-6">
+    <p>
+      {{content}}
+    </p>
+  </div>
+
+  <div class="col-3">
+
+  </div>
+
+</section>
+
+<section class="grid">
+
+  <div class="col-4">
+    {% for item in page.category %}
+    <p>
+    </p>
+    {% endfor %}
+  </div>
+
+  <div class="col-4">
+    {{ page.date | date: '%B %d, %Y' }}
+  </div>
+  <div class="col-4">
+    {{page.author}}
+  </div>
+
+</section>

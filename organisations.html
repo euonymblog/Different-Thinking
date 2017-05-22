@@ -1,0 +1,97 @@
+---
+layout: default
+title: Organisations
+services:
+  - service: Productivity
+    icon: magic
+    description: Advice on how to put in place and get the most from your workflows and processes.
+  - service: Internal Communication
+    icon:
+    description:
+  - service: Facilitating workshops
+    icon: users
+    description: From Design Thinking to games, we run sessions to get to the heart of what's going on so you can get on with the real work.
+experiences:
+  - task: Automation and Integration
+    outline: Reviewed and revised processes of a graphic design studio, saving hours of unecessary clerical work per week.
+  - task: Strategic planning
+    outline: Ran strategic planning session and event evaluation for Board of an NGO.
+  - task: Making the most of networks
+    outline: Ongoing advice to a university/practitioner network seeking to increase engagement and exchange.
+testimonials:
+  - name: Anonymous
+    role: NGO Chair
+    text: Thanks so much for your contributions yesterday - much appreciated and a great foundation for the afternoon’s discussions and our evolving thinking about how to reach the goals of the network and build its resilience - a key thing is us having language and terms to discuss what it is we are doing!
+  - name: Steve Rando
+    role: Head of Digital Creative, La Trobe University
+    text: During my time working with Antonia, she was able to suggest and implement a variety of exceptionally valuable contributions toward streamlining and automating our workflow. Personally, I feel that Antonia brings a wonderful equal balance of technical expertise, and professionalism to her approach
+  - name: David Seignior
+    role: Learning Designer
+    text: Antonia unleashes her amazingly diverse range of skills and talents (theatre director, educator, strategy consultant, researcher) to help organisations think differently and ‘do’ better. I couldn’t recommend her more highly to any organisation who wants to learn how to truly harness their human potential for creativity, innovation and sustainability.
+---
+<title>{{ page.title }}</title>
+
+<section class="sectiontitle">
+  <div>
+    <div class="deptheading orgs">
+      <span ><h2 class="font1">Different</h2><h2 class="font2 orgs">Organisations</h2></span>
+    </div>
+  </div>
+
+</section>
+
+
+
+  <div class="sectionheading orgs">
+    <h2 class="servicetitle">Services</h2>
+  </div>
+  <section class="grid matrix">
+    {% for item in page.services %}
+      <div class="col-4 servicesoutline">
+        <div>
+          <h3>{{ item.service }}</h3>
+        </div>
+        <div>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+
+
+  <div class="sectionheading orgs">
+    <h2 class="exptitle">Experience</h2>
+  </div>
+
+    <section class="grid matrix">
+      {% for item in page.experiences %}
+        <div class="col-4 expoutline">
+          <div>
+            <h3>{{ item.task }}</h3>
+          </div>
+          <div>
+            <p>{{ item.outline }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+  <div class="sectionheading orgs">
+    <h2 class="testtitle">Testimonials</h2>
+  </div>
+
+<section class="grid matrix">
+  {% for item in page.testimonials %}
+    <div class="col-4 testoutline">
+      <div>
+        <h3>{{ item.name }}</h3>
+      </div>
+      <div>
+        <h4>{{ item.role}}</h4>
+      </div>
+      <div>
+        <p>{{ item.text }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>

@@ -4,6 +4,7 @@ title: What remotes workers teach us about leadership
 category: organisations
 author: Antonia
 image: /uploads/remote-worker-leadership.jpg
+permalink: remote-worker-leadership.html
 ---
 
 

@@ -3,7 +3,7 @@ layout: posts
 title: The women that made me
 category: life
 author: Antonia
-image:
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Portrait_of_a_Young_Woman%2C_Amedeo_Modigliani%2C_1918%2C_New_Orleans_Museum_of_Art.jpg/140px-Portrait_of_a_Young_Woman%2C_Amedeo_Modigliani%2C_1918%2C_New_Orleans_Museum_of_Art.jpg'
 permalink: women-made-me
 ---
 

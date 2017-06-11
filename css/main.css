@@ -392,3 +392,9 @@ footer .fa{
 .copyright p{
   font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 500px) {
+    .topsection {
+        font-size: 1.2rem;
+    }
+}

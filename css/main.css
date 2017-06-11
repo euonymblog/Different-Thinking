@@ -114,6 +114,9 @@ header span {
 .topsection {
   margin: 3%;
   min-height: 30vh;
+  background-image: url('http://colorlisa.com/pictures/9_1.jpg');
+  background-size: cover;
+  background-repeat: none;
 }
 
 .topsection span {

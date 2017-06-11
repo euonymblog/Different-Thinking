@@ -122,7 +122,7 @@ header span {
 .topspan {
     margin: 5% 0;
     min-height: 10vh;
-    background-color: rgba(245,245,245, 0.7);
+    background-color: rgba(245,245,245, 0.9);
 }
 
 .topsection span {

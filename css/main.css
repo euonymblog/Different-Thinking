@@ -113,7 +113,7 @@ header span {
 
 .topsection {
   margin: 3%;
-  min-height: 10vh;
+  min-height: 30vh;
 }
 
 .topsection span {
@@ -121,7 +121,7 @@ header span {
 }
 
 .departments {
-  min-height: 10vh;
+  min-height: 30vh;
   margin-top: 5%;
 }
 

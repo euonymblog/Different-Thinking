@@ -121,7 +121,7 @@ header span {
 }
 
 .departments {
-  height: 65vh;
+  min-height: 65vh;
   margin-top: 5%;
 }
 

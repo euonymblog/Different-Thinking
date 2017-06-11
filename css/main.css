@@ -120,6 +120,7 @@ header span {
 }
 
 .topspan {
+    min-height: 10vh;
     background-color: rgba(245,245,245, 0.5);
 }
 

@@ -99,9 +99,9 @@ header span {
 }
 
 
-.grid {
-  flex-flow: nowrap;
-}
+/*.grid {*/
+/*  flex-flow: nowrap;*/
+/*}*/
 
 .department h2{
   font-size: 2.5rem;
@@ -113,7 +113,7 @@ header span {
 
 .topsection {
   margin: 3%;
-  height: 10vh;
+  min-height: 10vh;
 }
 
 .topsection span {

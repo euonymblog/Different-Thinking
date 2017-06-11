@@ -134,9 +134,9 @@ header span {
   font-size: 2.8rem;
 }
 
-.dept {
-  margin: 1%;
-}
+/*.dept {*/
+/*  margin: 1%;*/
+/*}*/
 
 .dept:hover {
   background-color: rgba(8,89,63, 0.2)

@@ -397,4 +397,8 @@ footer .fa{
     .topsection {
         display: none;
     }
+    
+    .bio {
+        display: none;
+    }
 }

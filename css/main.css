@@ -401,4 +401,8 @@ footer .fa{
     .team {
         display: none;
     }
+    
+    .departments {
+        margin-top: 10%;
+    }
 }

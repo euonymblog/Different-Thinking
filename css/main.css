@@ -395,6 +395,6 @@ footer .fa{
 
 @media only screen and (max-width: 500px) {
     .topsection {
-        font-size: 1.2rem;
+        display: none;
     }
 }

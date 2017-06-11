@@ -119,6 +119,10 @@ header span {
   background-repeat: none;
 }
 
+.topspan {
+    background-color: rgba(245,245,245, 0.5);
+}
+
 .topsection span {
   font-size: 3rem;
 }

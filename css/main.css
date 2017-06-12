@@ -404,13 +404,7 @@ footer .fa{
 }
 
 @media only screen and (max-width: 500px) {
-    .topsection {
-        display: none;
-    }
-    
-    .team {
-        display: none;
-    }
+   
     
     .departments {
         margin-top: 10%;

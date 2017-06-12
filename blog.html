@@ -17,9 +17,9 @@ title: Blog posts
 <section class="grid">
     {% for post in site.posts %}
     <a href="{{ post.url }}">
-      <div class="col-4_sm-6_xs-12 mobile-image-height" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+      <div class="col-4" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <h3>{{post.title}}</h3>
       </div>
      </a>
-</section>
 {% endfor %}
+</section>

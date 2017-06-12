@@ -404,7 +404,10 @@ footer .fa{
 }
 
 @media only screen and (max-width: 500px) {
-   
+   .topsection {
+       margin-top: 10%;
+       min-height: 60%;
+   }
     
     .departments {
         margin-top: 10%;

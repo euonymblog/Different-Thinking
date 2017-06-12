@@ -355,6 +355,12 @@ p.slogan {
   line-height: 2;
 }
 
+/*This is the blog page*/
+
+.posts {
+ min-height: 30vh;
+}
+
 /*This is the footer section*/
 
 .footer {

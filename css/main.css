@@ -361,6 +361,10 @@ p.slogan {
  min-height: 30vh;
 }
 
+.posts h3 {
+    color: whitesmoke;
+}
+
 /*This is the footer section*/
 
 .footer {

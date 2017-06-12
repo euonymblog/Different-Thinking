@@ -21,16 +21,8 @@ title: Blog posts
 <a href="{{ post.url }}">
   <div class="col-4_sm-6_xs-12 mobile-image-height" style="background-image: url('{{ post.images }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
   </div>
-
   <div class="col-8_sm-6_xs-12 ">
-    <div>
     <h3>{{post.title}}</h3>
-    </div>
-    <div>
-    <p>
-      {{post.excerpt}}
-    </p>
-    </div>
   </div>
 </a>
 {% endfor %}

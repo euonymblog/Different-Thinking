@@ -15,10 +15,10 @@ title: Blog posts
 
 <section class="grid postgrid">
     {% for post in site.posts %}
-    <!--<a href="{{ post.url }}">-->
+    <a href="{{ post.url }}">
       <div class="col-4_sm-12 posts" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <h3>{{post.title}}</h3>
       </div>
-     <!--</a>-->
+     </a>
     {% endfor %}
 </section>

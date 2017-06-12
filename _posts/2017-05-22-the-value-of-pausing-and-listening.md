@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: The value of pausing and listening
 category: communicating
 author: Antonia
